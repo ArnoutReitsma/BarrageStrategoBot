@@ -1,14 +1,14 @@
-﻿using BarrageStrategoCSharpBot.Model.Commands;
-using BarrageStrategoCSharpBot.Model;
+﻿using BarrageStrategoArchieBot.Model;
+using BarrageStrategoArchieBot.Model.Commands;
 
-namespace BarrageStrategoCSharpBot;
+namespace BarrageStrategoArchieBot;
 
 public class RandomStrategy : Strategy
 {
     protected override SetupBoardCommand DoSetupBoard(GameInit init)
     {
         var row = init.You == (int) Player.Red ? 0 : 6;
-        var result = new SetupBoardCommand { Pieces = new List<PiecePosition>() };
+        var result = new SetupBoardCommand();
 
         for (var i = 0; i < init.AvailablePieces.Length; i++)
         {
@@ -19,8 +19,7 @@ public class RandomStrategy : Strategy
                 Position = new Coordinate
                 {
                     X = i,
-                    Y = row + 1
-                        //+ (int)Math.Floor(new Random().NextDouble() * 4)
+                    Y = row + (int)Math.Floor(new Random().NextDouble() * 4)
                 }
             });
         }

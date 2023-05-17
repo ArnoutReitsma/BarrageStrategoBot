@@ -1,7 +1,7 @@
-﻿using BarrageStrategoCSharpBot.Model.Commands;
-using BarrageStrategoCSharpBot.Model;
+﻿using BarrageStrategoArchieBot.Model;
+using BarrageStrategoArchieBot.Model.Commands;
 
-namespace BarrageStrategoCSharpBot;
+namespace BarrageStrategoArchieBot;
 
 public abstract class Strategy
 {
@@ -19,7 +19,7 @@ public abstract class Strategy
         return DoSetupBoard(init);
     }
 
-    public MoveCommand Move(GameState state)
+    public MoveCommand? Move(GameState state)
     {
         if (state.ActivePlayer == Me)
         {

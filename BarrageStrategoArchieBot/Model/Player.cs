@@ -1,4 +1,4 @@
-namespace BarrageStrategoCSharpBot.Model;
+namespace BarrageStrategoArchieBot.Model;
 
 public enum Player
 {

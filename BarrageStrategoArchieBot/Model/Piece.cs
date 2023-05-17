@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace BarrageStrategoCSharpBot.Model;
+namespace BarrageStrategoArchieBot.Model;
 
 public class Piece
 {

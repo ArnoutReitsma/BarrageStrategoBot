@@ -1,7 +1,7 @@
 
 using Newtonsoft.Json;
 
-namespace BarrageStrategoCSharpBot.Model;
+namespace BarrageStrategoArchieBot.Model;
 
 public enum Rank
 {
@@ -16,5 +16,6 @@ public enum Rank
     Miner,
     Scout,
     Spy,
-    Flag
+    Flag,
+    Unknown
 }

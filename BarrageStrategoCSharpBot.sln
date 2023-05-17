@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarrageStrategoCSharpBot", "BarrageStrategoCSharpBot\BarrageStrategoCSharpBot.csproj", "{E63D39C2-58CA-41B2-9825-680FEEC8FF74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarrageStrategoArchieBot", "BarrageStrategoArchieBot\BarrageStrategoArchieBot.csproj", "{E63D39C2-58CA-41B2-9825-680FEEC8FF74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
