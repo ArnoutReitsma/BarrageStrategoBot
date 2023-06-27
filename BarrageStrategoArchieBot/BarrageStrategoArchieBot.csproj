@@ -12,4 +12,33 @@
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="bin\Debug\net6.0\BarrageStrategoArchieBot.deps.json" />
+      <Content Include="bin\Debug\net6.0\BarrageStrategoArchieBot.dll" />
+      <Content Include="bin\Debug\net6.0\BarrageStrategoArchieBot.exe" />
+      <Content Include="bin\Debug\net6.0\BarrageStrategoArchieBot.pdb" />
+      <Content Include="bin\Debug\net6.0\BarrageStrategoArchieBot.runtimeconfig.json" />
+      <Content Include="bin\Debug\net6.0\Newtonsoft.Json.dll" />
+      <Content Include="bin\Debug\net6.0\SetupBoard1.json" />
+      <Content Include="bin\Debug\net6.0\SetupBoard2.json" />
+      <Content Include="bin\Debug\net6.0\SetupBoard3.json" />
+      <Content Include="bin\Debug\net6.0\SetupBoard4.json" />
+      <Content Include="bin\Release\net6.0\BarrageStrategoArchieBot.deps.json" />
+      <Content Include="bin\Release\net6.0\BarrageStrategoArchieBot.dll" />
+      <Content Include="bin\Release\net6.0\BarrageStrategoArchieBot.exe" />
+      <Content Include="bin\Release\net6.0\BarrageStrategoArchieBot.pdb" />
+      <Content Include="bin\Release\net6.0\BarrageStrategoArchieBot.runtimeconfig.json" />
+      <Content Include="bin\Release\net6.0\BarrageStrategoArchieBot.zip" />
+      <Content Include="bin\Release\net6.0\Newtonsoft.Json.dll" />
+      <Content Include="bin\Release\net6.0\SetupBoard1.json" />
+      <Content Include="bin\Release\net6.0\SetupBoard2.json" />
+      <Content Include="bin\Release\net6.0\SetupBoard3.json" />
+      <Content Include="bin\Release\net6.0\SetupBoard4.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="bin\Debug\net6.0\SetupBoardBlue1.json" />
+      <None Include="bin\Debug\net6.0\SetupBoardRed1.json" />
+    </ItemGroup>
+
 </Project>

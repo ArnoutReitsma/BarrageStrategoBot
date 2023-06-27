@@ -9,4 +9,7 @@ public class GameState
     public Battle? BattleResult { get; set; }
     public MoveCommand? LastMove { get; set; }
     public int TurnNumber { get; set; }
+
+
+    public Cell? GetCellAtPosition(Coordinate coordinate) => Board.FirstOrDefault(c => c.Coordinate.Equals(coordinate));
 }

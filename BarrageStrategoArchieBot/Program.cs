@@ -2,7 +2,7 @@
 using BarrageStrategoArchieBot.Model;
 using Newtonsoft.Json;
 
-var strategy = new RandomStrategy();
+var strategy = new ArchieUberStrategy();
 
 // bot-start
 Console.WriteLine("bot-start");
